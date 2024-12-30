@@ -3,13 +3,13 @@
   }
   
   .contact-background {
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.3)
       ),
-      url("../Assets/bpoback.webp") no-repeat center center/cover;
+      url("../Assets/contac.webp") no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
