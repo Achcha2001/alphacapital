@@ -1,0 +1,31 @@
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../Assets/logo.png'); /* Replace with actual path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px; /* Adjust as per your logo dimensions */
+    height: 70px; /* Adjust as per your logo dimensions */
+  }
+  
+  /* Social Media Icons */
+  .footer-social-icons a {
+    display: inline-block;
+    color: #ffffff; /* White color for the icons */
+    font-size: 1.5rem; /* Icon size */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social-icons a:hover {
+    color: #007bff; /* Highlight color on hover (blue) */
+  }
+  
+  /* Footer Gradient Background */
+  .footer-gradient {
+    background: linear-gradient(to right, white, #010456, black); /* White to dark blue/black gradient */
+    color: #fdfdfd; /* White text for better readability */
+  }
+  .mx-3 a {
+    color: white !important; /* Ensures the text color is white and overrides other styles */
+  }
+  

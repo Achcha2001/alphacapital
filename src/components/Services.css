@@ -1,0 +1,60 @@
+.services-section {
+    padding: 40px 0;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  }
+  
+  .services-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .service-card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 0.75rem;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  @media (max-width: 768px) {
+    .services-section {
+      padding: 20px 0;
+    }
+  
+    .services-section h2 {
+      font-size: 2rem;
+    }
+  }
+  /* Service Icon Styles */
+.service-icon {
+    font-size: 2.5rem;
+    color: #022246;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .service-icon:hover {
+    color: #0056b3;
+    transform: scale(1.1);
+  }
+  

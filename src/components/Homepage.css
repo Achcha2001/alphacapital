@@ -1,0 +1,275 @@
+/* Welcome Section */
+.welcome-section {
+    position: relative;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5) 60%), 
+                url('../Assets/boy.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .welcome-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15%;
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .slogan {
+    font-size: 3rem;
+    animation: fadeIn 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Who We Are Section */
+  .who-we-are .icon {
+    font-size: 2rem;
+    color: #99b9db; /* Adjust to match your branding */
+  }
+  
+  .who-we-are .content-box {
+    align-items: center;
+  }
+  
+  .who-we-are .content-box h4 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .who-we-are .content-box p {
+    margin: 0;
+    color: #cbd3da;
+  }
+  
+  
+  
+/* Add space between icon and text */
+.btn i {
+    margin-right: 8px; /* Space between the icon and the text */
+  }
+  
+  /* Customize button styles */
+  .btn-primary {
+    background-color: #003366; /* Dark Blue */
+    border-color: #003366;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #002244; /* Darker Blue */
+    border-color: #002244;
+  }
+  
+  .btn-secondary {
+    background-color: #000000; /* Black */
+    border-color: #000000;
+    color: #ffffff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #444444; /* Dark Grey */
+    border-color: #444444;
+  }
+  
+  /* Add spacing between the buttons */
+  .btn-group .btn {
+    margin-right: 10px;
+  }
+  
+  .btn-group .btn:last-child {
+    margin-right: 0;
+  }
+  
+  .btn {
+    font-size: 1.1rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-transform: uppercase;
+  }
+  /* Welcoming Image */
+.welcome-image {
+    background-image: url('../Assets/backgroundbpo.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 490px; /* Adjust the height as needed */
+    border-radius: 8px;
+  }
+  
+  /* Content Boxes */
+ 
+
+  .content-box {
+    border-radius: 8px;
+   padding: 15px;
+    background: linear-gradient( #0d0854, #5f6994);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .content-box h4 {
+    color: white; /* White font for the heading */
+    margin: 0; /* Optional: Adjust margin if needed */
+  }
+  
+  .content-box p {
+    color: lightgrey; /* Light grey font for the paragraph */
+    margin: 0; /* Optional: Adjust margin if needed */
+  }
+  
+  .content-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a hover effect */
+  }
+  
+  /* Icon Styling */
+  .icon {
+    font-size: 1.5rem;
+    color: #007bff; /* Bootstrap Primary Color */
+  }
+  
+  /* Adjust margins */
+  .who-we-are .content-box + .content-box {
+    margin-top: 20px;
+  }
+  .about-us {
+    display: flex;
+    align-items: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #3368c9, #091d40,rgb(1, 1, 44)); /* Blue mix gradient */
+    color: white; /* Ensures text is readable on the gradient background */
+    position: relative;
+  }
+  
+  .about-us .text-container {
+    flex: 1 1 50%; /* Text takes 50% of the width */
+    padding-right: 2rem; /* Add spacing between text and image */
+  }
+  
+  .about-us .image-container {
+    flex: 1 1 50%; /* Image takes 50% of the width */
+    background: url('../Assets/about-us.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%; /* Ensures it matches the height of the text container */
+    min-height: 400px; /* Set a minimum height for the image */
+  }
+  
+  .about-us h2 {
+    font-size: 2.5rem;
+    color: white; /* Heading text color */
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-us p {
+    font-size: 1.1rem;
+    color: #e0e0e0; /* Light grey for better readability on blue background */
+    line-height: 1.8;
+    margin: 1rem 0;
+    text-align:start; /* Align text to the left */
+    text-indent: 0; /* Ensures no indentation */
+  }
+  
+  @media (max-width: 768px) {
+    .about-us {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+    }
+  
+    .about-us .text-container,
+    .about-us .image-container {
+      flex: 1 1 100%; /* Full width for both text and image */
+    }
+  
+    .about-us .image-container {
+      height: 200px; /* Reduce image height on smaller screens */
+    }
+  }
+  /* For screens below 700px */
+@media (max-width: 700px) {
+    /* Welcome Section */
+    .welcome-section .slogan {
+      font-size: 2rem; /* Reduce slogan size */
+    }
+  
+    .welcome-overlay {
+      width: 95%; /* Slightly narrower overlay */
+      margin-top: 20%; /* Adjust positioning */
+      padding: 15px; /* Reduce padding */
+    }
+  
+    /* Buttons */
+    .btn {
+      font-size: 1rem; /* Reduce button font size */
+      padding: 10px 20px; /* Adjust button padding */
+      border-radius: 6px; /* Slightly smaller border-radius */
+    }
+  
+    /* About Us Section */
+    .about-us h2 {
+      font-size: 2rem; /* Reduce heading size */
+    }
+  
+    .about-us p {
+      font-size: 1rem; /* Reduce paragraph text size */
+    }
+  }
+  
+  /* For screens below 500px */
+  @media (max-width: 500px) {
+    /* Welcome Section */
+    .welcome-section .slogan {
+      font-size: 1.5rem; /* Further reduce slogan size */
+    }
+  
+    .welcome-overlay {
+      width: 90%; /* Narrower overlay */
+      margin-top: 25%; /* Adjust positioning */
+      padding: 10px; /* Further reduce padding */
+    }
+  
+    /* Buttons */
+    .btn {
+      font-size: 0.9rem; /* Smaller button font size */
+      padding: 8px 16px; /* Adjust button padding */
+      border-radius: 5px; /* Smaller border-radius */
+    }
+  
+    /* About Us Section */
+    .about-us h2 {
+      font-size: 1.8rem; /* Further reduce heading size */
+    }
+  
+    .about-us p {
+      font-size: 0.9rem; /* Smaller paragraph text size */
+    }
+  
+    /* Image Container */
+    .about-us .image-container {
+      height: 150px; /* Reduce image height */
+    }
+  }
+  

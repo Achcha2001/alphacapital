@@ -1,0 +1,96 @@
+/* Default navbar (transparent) */
+.navbar {
+    background-color:rgba(15, 15, 16, 0.025);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-scrolled {
+     background: linear-gradient(to right, white, #05085d,black); /* White to grey gradient */
+  color: #f7f6f6;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff;
+    
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* When scrolled, change text color */
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link {
+    color: #fefdfd;
+  }
+  
+  .navbar .nav-link {
+    margin-left: 15px;
+  }
+  
+  .navbar-scrolled .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Logo styles */
+  .logo {
+    width: 200px;
+    height: 100px;
+    background-image: url('../Assets/logo.png'); /* Adjust the path to your logo image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: width 0.3s ease, height 0.3s ease; /* Smooth transition */
+  }
+  
+  .small-logo {
+    width: 120px; /* Adjust the smaller size for scrolled state */
+    height: 60px;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease; /* Smooth transition for navbar */
+  }
+  
+  .navbar-scrolled {
+    background-color: white; /* Change navbar background color when scrolled */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+  }
+  
+  .navbar .nav-link {
+    margin-left: 15px;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar-scrolled .nav-link {
+    color: #fefdfd;
+  }
+  
+  .navbar-scrolled .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Active link styling */
+  #navbar .nav-link#active-link {
+    color: grey !important;
+    font-weight: bold; /* Optional to emphasize active link */
+}.navbar-toggler-icon {
+    background-image: none; /* Remove default background */
+  }
+  
+  .navbar-toggler-icon::before, 
+  .navbar-toggler-icon::after, 
+  .navbar-toggler-icon span {
+    content: "";
+    display: block;
+    width: 25px; /* Width of the lines */
+    height: 3px; /* Thickness of the lines */
+    margin: 5px auto; /* Space between the lines */
+    background-color: white; /* Change this to your desired color */
+    transition: all 0.3s ease-in-out; /* Optional smooth transition */
+  }
+  

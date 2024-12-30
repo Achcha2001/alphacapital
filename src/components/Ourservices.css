@@ -1,0 +1,77 @@
+/* Hero Section */
+.services-hero1 {
+    background: url('../Assets/service.webp') center/cover no-repeat;
+    height: 80vh;
+    position: relative;
+  }
+  
+  .services-overlay1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .services-title1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .services-subtitle {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Services Section */
+  .services-container1 {
+    padding: 2rem;
+  }
+  
+  .services-heading1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .services-grid1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .service-card1 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .service-title1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .service-description1 {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
