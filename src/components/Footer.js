@@ -34,7 +34,7 @@ const Footer = () => (
         {/* Social Media Section */}
         <Col md={4} className="text-center text-md-end footer-social-icons">
           <a 
-            href="https://www.instagram.com" 
+            href="https://www.instagram.com/alpha.capitals.official?igsh=MWgwYXVkMmpvYzJzaQ==" 
             className=" mx-2" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Footer = () => (
             <i className="fab fa-instagram"></i>
           </a>
           <a 
-            href="https://www.facebook.com" 
+            href="https://www.facebook.com/profile.php?id=61570268843165&mibextid=LQQJ4d&mibextid=LQQJ4d" 
             className=" mx-2" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -50,7 +50,7 @@ const Footer = () => (
             <i className="fab fa-facebook-f"></i>
           </a>
           <a 
-            href="https://www.linkedin.com" 
+            href="https://www.linkedin.com/company/alpha-capitals-pvt-ltd/" 
             className=" mx-2" 
             target="_blank" 
             rel="noopener noreferrer"
