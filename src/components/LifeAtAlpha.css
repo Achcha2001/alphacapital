@@ -1,0 +1,231 @@
+/* LifeAtAlpha.css */
+
+/* Life At Alpha Section */
+.life-at-alpha-container {
+    background-color: #f4f4f9;
+}
+
+/* Life At Alpha Header */
+.life-at-alpha-header {
+    position: relative;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.018) 60%), 
+                url('../Assets/join2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-overlay1 {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin: 0;
+}
+
+.life-at-alpha-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Introduction Section */
+.life-intro-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.life-intro-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2b2d42;
+    margin-bottom: 15px;
+}
+
+.life-intro-description {
+    font-size: 18px;
+    color: #6a6a89;
+    line-height: 1.8;
+}
+
+/* Section Blocks */
+.life-section-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.life-section-block.reverse-layout {
+    flex-direction: row-reverse;
+}
+
+.life-section-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.life-section-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.life-section-description {
+    font-size: 16px;
+    color: #74788d;
+    line-height: 1.6;
+}
+
+.life-section-slider {
+    flex: 1;
+    max-width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Swiper Styles */
+.alpha-swiper-container {
+    width: 100%;
+    height: 320px;
+}
+
+.alpha-swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Images for Specific Sections */
+.alpha-swiper-slide.trip-a1 {
+    background-image: url("../Assets/trip-a1.jpg");
+}
+
+.alpha-swiper-slide.trip-a2 {
+    background-image: url("../Assets/trip-a2.jpg");
+}
+
+.alpha-swiper-slide.trip-a3 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.newyear1 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.newyear2 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.newyear3 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.christmas1 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.christmas2 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.christmas3 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.weekend1 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.weekend2 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+.alpha-swiper-slide.weekend3 {
+    background-image: url("../Assets/trip-a3.jpg");
+}
+
+/* Pagination Dots */
+.swiper-pagination-bullet {
+    background-color: #ff6b6b !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #f94144 !important;
+}
+
+/* Fancy Image Overlays */
+.slide-overlay {
+    position: relative;
+}
+
+.slide-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.slide-overlay:hover::after {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .life-section-block {
+        flex-direction: column;
+    }
+
+    .life-section-slider {
+        max-width: 100%;
+    }
+
+    .alpha-swiper-container {
+        height: 250px;
+    }
+}
+.hidden-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .animate-section {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  /* Background for New Year Celebration Section */
+.bg-new-year {
+    background: linear-gradient(to right, #9aaeff, #d3eefe); /* Soft pink gradient */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Background for Weekend Bash Section */
+.bg-weekend {
+    background: linear-gradient(to right, #d3e4fe, #6b96fb); /* Purple and pink gradient */
+    padding: 20px;
+   
+    border-radius: 10px;
+}

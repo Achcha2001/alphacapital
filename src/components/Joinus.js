@@ -61,69 +61,62 @@ const JoinUs = () => {
           </div>
         </div>
       </section>
-       {/* BPO Job Descriptions Section */}
-       <section className="bpo-job-descriptions py-5 bg-light">
-        <div className="container">
-          <p className="text-center mb-4">
-            We are a leading BPO company, offering a dynamic work environment and exciting career
-            opportunities. Explore the roles we are currently hiring for:
-          </p>
-          <div id="jobCarousel" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <div className="position-item p-4 border rounded shadow-sm bg-white">
-                  <h4 className="text-primary">Customer Service Representative</h4>
-                  <p className="text-muted">
-                    Deliver exceptional customer support via phone, email, and chat. Develop problem-solving
-                    skills and assist clients with inquiries, ensuring satisfaction at every step.
-                  </p>
-                  <ul className="list-unstyled">
-                    <li className="mb-2"><i className="bi bi-check-circle text-success"></i> Strong verbal and written communication skills.</li>
-                    <li className="mb-2"><i className="bi bi-check-circle text-success"></i> Ability to handle multiple tasks efficiently.</li>
-                    <li><i className="bi bi-check-circle text-success"></i> Prior experience in a customer service role is a plus.</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="position-item p-4 border rounded shadow-sm bg-white">
-                  <h4 className="text-primary">Data Entry Specialist</h4>
-                  <p className="text-muted">
-                    Ensure accuracy and efficiency in data management by entering and updating information into
-                    our systems. Help maintain data integrity and support other departments.
-                  </p>
-                  <ul className="list-unstyled">
-                    <li className="mb-2"><i className="bi bi-check-circle text-success"></i> High attention to detail and organizational skills.</li>
-                    <li className="mb-2"><i className="bi bi-check-circle text-success"></i> Proficiency in MS Office and data management tools.</li>
-                    <li><i className="bi bi-check-circle text-success"></i> Ability to meet tight deadlines and maintain quality standards.</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="position-item p-4 border rounded shadow-sm bg-white">
-                  <h4 className="text-primary">Technical Support Associate</h4>
-                  <p className="text-muted">
-                    Provide technical assistance and troubleshooting for clients. Be the go-to expert for resolving
-                    technical challenges and ensuring seamless operations.
-                  </p>
-                  <ul className="list-unstyled">
-                    <li className="mb-2"><i className="bi bi-check-circle text-success"></i> Strong technical aptitude and problem-solving abilities.</li>
-                    <li className="mb-2"><i className="bi bi-check-circle text-success"></i> Excellent interpersonal and communication skills.</li>
-                    <li><i className="bi bi-check-circle text-success"></i> Experience in IT support or a related field is advantageous.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#jobCarousel" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#jobCarousel" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
+  {/* Join Us Section */}
+<section className="team-section py-5 bg-light">
+  <div className="team-container container text-center">
+    <h2 className="team-heading mb-4">Start Your Journey With Us!</h2>
+    <p className="team-intro mb-5">
+      Ready to launch your sales career? Join our passionate and dynamic team today and start creating the future you deserve!
+    </p>
+    <div className="team-row row">
+      {/* Requirements Section */}
+      <div className="requirements-container d-flex align-items-start mb-4 col-md-12">
+        <div className="team-requirements col-md-6">
+          <h3 className="requirements-heading text-primary">Requirements</h3>
+          <ul className="requirements-list list-unstyled">
+            <li className="list-item mb-2">
+              <i className="bi bi-check-circle text-success"></i> Strong communication skills in English (both written and verbal) are a must.
+            </li>
+            <li className="list-item mb-2">
+              <i className="bi bi-check-circle text-success"></i> Open to school leavers – no prior qualifications needed.
+            </li>
+            <li className="list-item mb-2">
+              <i className="bi bi-check-circle text-success"></i> Age: 18 to 25 years.
+            </li>
+            <li className="list-item">
+              <i className="bi bi-check-circle text-success"></i> Prior sales experience is a bonus but not essential. We value motivation, enthusiasm, and a willingness to learn.
+            </li>
+          </ul>
         </div>
-      </section>
+        <div className="requirements-image col-md-6"></div>
+      </div>
+      {/* What We Offer Section */}
+      <div className="offers-container d-flex align-items-start mb-4 col-md-12">
+        <div className="team-offers col-md-6">
+          <h3 className="offers-heading text-primary">What We Offer</h3>
+          <ul className="offers-list list-unstyled">
+            <li className="list-item mb-2">
+              <i className="bi bi-gift text-success"></i> <strong>Comprehensive Training:</strong> Gain the skills and knowledge you need to succeed.
+            </li>
+            <li className="list-item mb-2">
+              <i className="bi bi-people text-success"></i> <strong>Inclusive Environment:</strong> Join a supportive and collaborative team that celebrates diversity.
+            </li>
+            <li className="list-item">
+              <i className="bi bi-graph-up-arrow text-success"></i> <strong>Career Development:</strong> Enjoy opportunities for personal and professional growth.
+            </li>
+          </ul>
+        </div>
+        <div className="offers-image col-md-6"></div>
+      </div>
+    </div>
+    <p className="team-footer mt-4">
+      Ready to grow with us? <strong>Apply now</strong> and take the first step toward an exciting future in sales!
+    </p>
+  </div>
+</section>
+
+
+
     </div>
   );
 };

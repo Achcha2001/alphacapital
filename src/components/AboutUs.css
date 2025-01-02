@@ -99,3 +99,83 @@
     }
   }
   
+  .about-row {
+    display: flex;
+    gap: 20px; /* Add some space between the image and text */
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+  }
+  
+  .about-image-container {
+    flex: 1 1 40%; /* Image takes 40% of the width */
+    min-height: 300px; /* Minimum height for the image */
+    background: url('../Assets/join.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect */
+  }
+  
+  .about-description {
+    flex: 1 1 55%; /* Text takes 55% of the width */
+  }
+  
+  .about-section-divider {
+    background: linear-gradient(135deg, #f5f7fa, #c3d9ef); /* Gradient background for a distinct look */
+    padding: 60px 20px; /* Adds padding for breathing space */
+    border-top: 5px solid #1a73e8; /* Optional: Top border to create a divider effect */
+    border-bottom: 5px solid #1a73e8; /* Optional: Bottom border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for more depth */
+  }
+  
+  .about-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a73e8; /* A distinct color for the heading */
+  }
+  /* History Section */
+.about-section-history {
+  background:url('../Assets/history-back.jpg') no-repeat center; /* Subtle gradient */
+  background-size: cover;
+  padding: 60px 20px;
+  border-radius: 12px; /* Rounded corners for a modern look */
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.about-history-text {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Heading */
+.about-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #2c3e50; /* Dark blue-gray */
+  margin-bottom: 30px;
+}
+
+/* Paragraphs */
+.about-description-history p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-section-history {
+    padding: 40px 15px;
+  }
+  .about-heading {
+    font-size: 2rem;
+  }
+  .about-description-history p {
+    font-size: 1rem;
+  }
+}

@@ -7,6 +7,7 @@ import ContactUs from "./components/Contactus"; // Import the ContactUs componen
 import AboutUs from "./components/AboutUs";
 import OurServices from "./components/ourservices";
 import JoinUs from "./components/Joinus";
+import LifeAtAlpha from "./components/LifeAtAlpha";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/ourservices" element={<OurServices />} />
         <Route path="/join-us" element={<JoinUs />} />;
+        <Route path="/life" element={<LifeAtAlpha />} />;
 
       </Routes>
       <Footer />

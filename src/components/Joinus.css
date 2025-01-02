@@ -76,3 +76,138 @@
   }
     
 /* Carousel container styles */
+/* General Section Styles */
+.team-section {
+    background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+    padding: 50px 20px;
+  }
+  
+  .team-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Heading Styles */
+  .team-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    color: #34495e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .team-heading::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: #3498db;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Intro Text */
+  .team-intro {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    line-height: 1.6;
+  }
+  
+  /* Row Styling */
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Requirements and Offers Section */
+  .team-requirements, .team-offers {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-requirements:hover, .team-offers:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .requirements-heading, .offers-heading {
+    font-size: 1.8rem;
+    color: #2980b9;
+    margin-bottom: 20px;
+  }
+  
+  /* List Styling */
+  .requirements-list, .offers-list {
+    font-size: 1rem;
+    color: #34495e;
+    line-height: 1.8;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  
+  .list-item i {
+    font-size: 1.2rem;
+    color: #27ae60;
+  }
+  
+  /* Images */
+  .requirements-image, .offers-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .requirements-image {
+    background-image: url('../Assets/join2.jpg');
+    order: -1; /* Move image to the left of the requirements content */
+    margin-right: 20px;
+  }
+  
+  .offers-image {
+    background-image: url('../Assets/join.jpg');
+    order: 1; /* Keep image to the right of the offers content */
+    margin-left: 20px;
+  }
+  
+  /* Flexbox Layout Adjustments */
+  .requirements-container, .offers-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .requirements-container .team-requirements, 
+  .offers-container .team-offers {
+    flex: 1 1 auto;
+  }
+  
+  .requirements-image, .offers-image {
+    flex: 0 0 auto;
+  }
+  
+  /* Hide Images on Small Screens */
+  @media (max-width: 700px) {
+    .requirements-image, .offers-image {
+      display: none;
+    }
+  }
+  
