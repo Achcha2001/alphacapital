@@ -65,6 +65,14 @@ const LifeAtAlpha = () => {
       align: "right",
       background: "bg-weekend", // Unique background class
     },
+    {
+      title: "Sports Day",
+      description:
+        "Our Sports Day is an event filled with energy and enthusiasm. Team spirit, healthy competition, and unforgettable memories make it an eagerly anticipated occasion.",
+      slides: ["sports1", "sports2", "sports3"],
+      align: "left",
+      background: "bg-sports-day", // Unique background class
+    },
   ];
 
   return (
@@ -78,7 +86,6 @@ const LifeAtAlpha = () => {
 
       <div className="life-at-alpha-wrapper">
         <div className="life-intro-section">
-          <h2 className="life-intro-heading">Life at Alpha</h2>
           <p className="life-intro-description">
             Life at Alpha is all about creating a vibrant and engaging
             environment where work and fun go hand in hand. From exciting events

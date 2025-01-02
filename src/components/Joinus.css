@@ -176,13 +176,13 @@
   }
   
   .requirements-image {
-    background-image: url('../Assets/join2.jpg');
+    background-image: url('../Assets/work3.jpg');
     order: -1; /* Move image to the left of the requirements content */
     margin-right: 20px;
   }
   
   .offers-image {
-    background-image: url('../Assets/join.jpg');
+    background-image: url('../Assets/work5.jpg');
     order: 1; /* Keep image to the right of the offers content */
     margin-left: 20px;
   }

@@ -114,7 +114,7 @@
 
 /* Images for Specific Sections */
 .alpha-swiper-slide.trip-a1 {
-    background-image: url("../Assets/trip-a1.jpg");
+    background-image: url("../Assets/trip-a5.jpg");
 }
 
 .alpha-swiper-slide.trip-a2 {
@@ -126,27 +126,29 @@
 }
 
 .alpha-swiper-slide.newyear1 {
-    background-image: url("../Assets/trip-a3.jpg");
+    background-image: url("../Assets/nye2.jpg");
+    background-position: center 20%; /* Moves the image up by setting vertical alignment */
+    background-size: cover;
 }
 
 .alpha-swiper-slide.newyear2 {
-    background-image: url("../Assets/trip-a3.jpg");
+    background-image: url("../Assets/nye4.jpg");
 }
 
 .alpha-swiper-slide.newyear3 {
-    background-image: url("../Assets/trip-a3.jpg");
+    background-image: url("../Assets/nye3.jpg");
 }
 
 .alpha-swiper-slide.christmas1 {
-    background-image: url("../Assets/trip-a3.jpg");
+    background-image: url("../Assets/joinus.jpg");
 }
 
 .alpha-swiper-slide.christmas2 {
-    background-image: url("../Assets/trip-a3.jpg");
+    background-image: url("../Assets/christmas1.jpg");
 }
 
 .alpha-swiper-slide.christmas3 {
-    background-image: url("../Assets/trip-a3.jpg");
+    background-image: url("../Assets/christmas2.jpg");
 }
 
 .alpha-swiper-slide.weekend1 {
@@ -154,7 +156,7 @@
 }
 
 .alpha-swiper-slide.weekend2 {
-    background-image: url("../Assets/trip-a3.jpg");
+    background-image: url("../Assets/trip-a1.jpg");
 }
 
 .alpha-swiper-slide.weekend3 {
@@ -228,4 +230,22 @@
     padding: 20px;
    
     border-radius: 10px;
+}
+.bg-sports-day {
+    background: linear-gradient(135deg, #3fa2f8 0%, #93feea 100%);
+    padding: 20px;
+   
+    border-radius: 10px;
+}
+
+.alpha-swiper-slide.sports1 {
+    background-image: url('../Assets/sportsday1.jpg');
+}
+
+.alpha-swiper-slide.sports2 {
+    background-image: url('../Assets/sportsday2.jpg');
+}
+
+.alpha-swiper-slide.sports3 {
+    background-image: url('../Assets/sportsday3.jpg');
 }

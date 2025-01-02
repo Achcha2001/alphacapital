@@ -109,7 +109,7 @@
   .about-image-container {
     flex: 1 1 40%; /* Image takes 40% of the width */
     min-height: 300px; /* Minimum height for the image */
-    background: url('../Assets/join.jpg') no-repeat center center;
+    background: url('../Assets/work2.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 10px; /* Optional: Rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect */
