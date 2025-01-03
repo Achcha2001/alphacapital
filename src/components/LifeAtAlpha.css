@@ -194,19 +194,7 @@
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
-    .life-section-block {
-        flex-direction: column;
-    }
 
-    .life-section-slider {
-        max-width: 100%;
-    }
-
-    .alpha-swiper-container {
-        height: 250px;
-    }
-}
 .hidden-section {
     opacity: 0;
     transform: translateY(20px);
@@ -249,3 +237,20 @@
 .alpha-swiper-slide.sports3 {
     background-image: url('../Assets/sportsday3.jpg');
 }
+/* Mobile Responsiveness for Screens Under 500px */
+
+/* Mobile Responsiveness for Screens Below 700px */
+/* For screens smaller than 500px */
+@media (max-width: 500px) {
+    .life-section-block {
+      flex-direction: column;
+      align-items: center; /* Center-align the content */
+      width: 100%;
+    }
+  
+    .life-section-slider {
+      justify-content: center; /* Center the slider */
+      width: 100vw; /* Ensure the slider takes full width */
+    }
+  }
+  

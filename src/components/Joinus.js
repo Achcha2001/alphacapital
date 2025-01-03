@@ -95,13 +95,13 @@ const JoinUs = () => {
         <div className="team-offers col-md-6">
           <h3 className="offers-heading text-primary">What We Offer</h3>
           <ul className="offers-list list-unstyled">
-            <li className="list-item mb-2">
+            <li className="list-item1 mb-2">
               <i className="bi bi-gift text-success"></i> <strong>Comprehensive Training:</strong> Gain the skills and knowledge you need to succeed.
             </li>
-            <li className="list-item mb-2">
+            <li className="list-item1 mb-2">
               <i className="bi bi-people text-success"></i> <strong>Inclusive Environment:</strong> Join a supportive and collaborative team that celebrates diversity.
             </li>
-            <li className="list-item">
+            <li className="list-item1">
               <i className="bi bi-graph-up-arrow text-success"></i> <strong>Career Development:</strong> Enjoy opportunities for personal and professional growth.
             </li>
           </ul>

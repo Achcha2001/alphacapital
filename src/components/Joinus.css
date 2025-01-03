@@ -210,4 +210,28 @@
       display: none;
     }
   }
+  @media (max-width: 500px) {
+    .offers-container {
+      flex-direction: column; /* Stack the items vertically */
+    }
   
+    .offers-list {
+      padding-left: 0; /* Remove default list padding */
+    }
+  
+    .list-item1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 1rem; /* Adjust the spacing */
+    }
+  
+    .list-item1 strong {
+      order: -1; /* Move the <strong> text above the description */
+      margin-bottom: 0.5rem; /* Add spacing between <strong> and description */
+    }
+  
+    .offers-image {
+      margin-top: 1rem; /* Add spacing between the list and the image */
+    }
+  }

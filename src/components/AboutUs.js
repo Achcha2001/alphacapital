@@ -22,7 +22,7 @@ const AboutUs = () => {
 
       {/* About Content Section */}
       <div className="about-container mt-5" data-aos="fade-up">
-        <h2 className="about-heading text-center mb-5">Everything About Us</h2>
+        <h2 className="about-heading text-center mb-5">OUR JOURNEY</h2>
         <div className="about-row">
           <div className="about-description">
             <p>

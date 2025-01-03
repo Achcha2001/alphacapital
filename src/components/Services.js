@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 import { Card, Container, Row, Col } from "react-bootstrap";
 
-import { FaHeadset, FaBullhorn, FaTools } from "react-icons/fa";
+import { FaHeadset, FaBullhorn, FaTools, FaEnvelope } from "react-icons/fa"; // Added FaEnvelope
 
 const servicesData = [
   {
@@ -21,10 +21,10 @@ const servicesData = [
   },
   {
     id: 3,
-    title: "Technical Support",
+    title: "Non-Voice Support",
     description:
-      "Ensure seamless operation of your products and services with our technical support services. Our knowledgeable agents offer expert troubleshooting and assistance to resolve technical issues promptly, minimizing downtime and optimizing customer experience.",
-    icon: <FaTools className="service-icon" />,
+      "Provide exceptional customer support through our non-voice services. Our skilled agents handle email, chat, and ticketing systems efficiently, ensuring clear communication and prompt resolution for an optimized customer experience.",
+    icon: <FaEnvelope className="service-icon" />, // FaEnvelope used here
   },
 ];
 
