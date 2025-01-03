@@ -43,7 +43,7 @@ const OurServices = () => {
           </div>
 
           {/* Service 3 */}
-          <div className="service-card1">
+          {/* <div className="service-card1">
             <div className="service-icon">
               <i className="fas fa-tools"></i>
             </div>
@@ -51,10 +51,10 @@ const OurServices = () => {
             <p className="service-description1">
               Ensure seamless operation of your products and services with our technical support services. Our knowledgeable agents offer expert troubleshooting and assistance to resolve technical issues promptly, minimizing downtime and optimizing customer experience.
             </p>
-          </div>
+          </div> */}
 
           {/* Service 4 */}
-          <div className="service-card1">
+          {/* <div className="service-card1">
             <div className="service-icon">
               <i className="fas fa-file-alt"></i>
             </div>
@@ -62,7 +62,7 @@ const OurServices = () => {
             <p className="service-description1">
               Streamline your business operations with our efficient back-office support services. From data entry and document processing to record management, we help you focus on core activities while we handle the rest.
             </p>
-          </div>
+          </div> */}
 
           {/* Service 5 */}
           <div className="service-card1">

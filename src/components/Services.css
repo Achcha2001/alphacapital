@@ -58,3 +58,46 @@
     transform: scale(1.1);
   }
   
+  .see-more-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .see-more-btn:hover {
+    background-color: #0056b3;
+  }
+  .services-section {
+    padding: 40px 0;
+  }
+  
+  .service-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .see-more-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  

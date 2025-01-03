@@ -1,7 +1,7 @@
 /* Hero Section */
 .services-hero1 {
-    background: url('../Assets/service.webp') center/cover no-repeat;
-    height: 80vh;
+    background: url('../Assets/services-a.jpg') center/cover no-repeat;
+    height: 100vh;
     position: relative;
   }
   

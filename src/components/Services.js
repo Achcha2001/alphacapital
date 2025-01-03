@@ -1,8 +1,9 @@
 import React from "react";
 import "./Services.css";
-import { Card, Container, Row, Col } from "react-bootstrap";
+import { Card, Container, Row, Col, Button } from "react-bootstrap"; // Added Button
+import { Link } from "react-router-dom"; // Import Link from React Router
 
-import { FaHeadset, FaBullhorn, FaTools, FaEnvelope } from "react-icons/fa"; // Added FaEnvelope
+import { FaHeadset, FaBullhorn } from "react-icons/fa"; // Removed FaEnvelope
 
 const servicesData = [
   {
@@ -19,22 +20,15 @@ const servicesData = [
       "Boost your sales and marketing efforts with our outbound call center services. From lead generation and prospecting to customer acquisition and retention campaigns, we help you drive revenue growth and maximize ROI through targeted outreach and engagement.",
     icon: <FaBullhorn className="service-icon" />,
   },
-  {
-    id: 3,
-    title: "Non-Voice Support",
-    description:
-      "Provide exceptional customer support through our non-voice services. Our skilled agents handle email, chat, and ticketing systems efficiently, ensuring clear communication and prompt resolution for an optimized customer experience.",
-    icon: <FaEnvelope className="service-icon" />, // FaEnvelope used here
-  },
 ];
 
 const Services = () => (
   <section id="services" className="services-section">
     <Container>
       <h2 className="text-center mb-4">Our Services</h2>
-      <Row>
+      <Row className="justify-content-center"> {/* Center content */}
         {servicesData.map((service) => (
-          <Col md={4} sm={6} key={service.id} className="mb-4">
+          <Col md={6} sm={8} key={service.id} className="mb-4"> {/* Adjust column width */}
             <Card className="h-100 service-card">
               <Card.Body className="text-center">
                 {service.icon}
@@ -45,6 +39,15 @@ const Services = () => (
           </Col>
         ))}
       </Row>
+
+      {/* See More Button */}
+      <div className="text-center mt-4">
+        <Link to="/ourservices">
+          <Button variant="primary" className="see-more-btn">
+            See More
+          </Button>
+        </Link>
+      </div>
     </Container>
   </section>
 );

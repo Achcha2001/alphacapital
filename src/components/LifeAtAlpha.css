@@ -43,6 +43,7 @@
 /* Introduction Section */
 .life-intro-section {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -227,7 +228,7 @@
 }
 
 .alpha-swiper-slide.sports1 {
-    background-image: url('../Assets/sportsday1.jpg');
+    background-image: url('../Assets/sportsday4.jpg');
 }
 
 .alpha-swiper-slide.sports2 {
