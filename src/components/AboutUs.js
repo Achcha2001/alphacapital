@@ -44,7 +44,7 @@ const AboutUs = () => {
           <h2 className="about-heading mb-4 text-center">Our History</h2>
           <div className="about-description-history">
             <p>
-              At Alpha Capitals (Pvt) Ltd, we believe that every great journey begins with a single step—and ours started in 2024 with just 18 clients and a passionate team of 5 agents. Located in the vibrant business hub of Colombo 02, we entered the Business Process Outsourcing (BPO) industry with a clear mission: to empower progress and inspire the future.
+            At Alpha Capitals (Pvt) Ltd, we believe that every great journey begins with a single step—and ours started in 2024 with a clear vision and unwavering dedication. Located in the vibrant business hub of Colombo 02, we entered the Business Process Outsourcing (BPO) industry with a mission to empower progress and inspire the future.
             </p>
             <p>
               From the very beginning, Alpha Capitals was built on the principles of resilience, innovation, and dedication. With a small but determined team, we worked tirelessly to establish ourselves as a trusted partner in the BPO sector. Each client we served became a part of our story, motivating us to deliver exceptional value and exceed expectations.
@@ -66,7 +66,7 @@ const AboutUs = () => {
       <div className="about-container mt-5" data-aos="fade-left">
         <h2 className="about-heading text-center mb-5">Message from Our CEO</h2>
         <div className="about-row about-ceo">
-          <div className="about-ceo-image"></div> {/* Placeholder for image styled in CSS */}
+          {/* <div className="about-ceo-image"></div>  */}
           <div className="about-ceo-message">
             <blockquote className="about-quote">
               <p>

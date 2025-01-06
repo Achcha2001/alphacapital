@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination, Autoplay } from "swiper/modules";
-import "./LifeAtAlpha.css"; // Import the updated CSS file
+import "./LifeAtAlpha.css"; 
 
 const LifeAtAlpha = () => {
   const sectionsRef = useRef([]);

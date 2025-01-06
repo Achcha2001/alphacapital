@@ -1,7 +1,7 @@
 /* Hero Section */
 .about-hero {
     background: url('../Assets/about-group.jpg') center/cover no-repeat;
-    height: 400px;
+    height: 90vh;
     position: relative;
   }
   
