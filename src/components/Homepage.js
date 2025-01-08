@@ -141,7 +141,7 @@ const Homepage = () => {
       className="image-container"
       style={{
         flex: "1 1 50%",
-        backgroundImage: `url(${require("../Assets/about-us.jpg")})`,
+        backgroundImage: `url(${require("../Assets/aboutnew.jpg")})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",

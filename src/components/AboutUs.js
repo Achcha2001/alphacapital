@@ -70,7 +70,13 @@ const AboutUs = () => {
           <div className="about-ceo-message">
             <blockquote className="about-quote">
               <p>
-                "At Alpha Capitals, we are passionate about empowering businesses with innovative solutions that drive success. Our unwavering commitment to excellence and our relentless pursuit of perfection have established us as leaders in the BPO industry. Together, let's redefine the future and unlock new possibilities."
+                "At our company, we don’t believe in the usual 24/7 grind. We focus on thinking outside the box and finding creative solutions. Our goal is to help you grow both in your career and in your personal life.
+
+We started from scratch—no experience, no knowledge. Through hard work and determination, we've built something stronger over time.
+
+If you ever feel like you’re not capable or doubt your abilities, remember: true weakness only exists when you stop striving to achieve your dreams.
+
+We’d love for you to join our team, where we’ll show you how to elevate your life in ways you never thought possible."
               </p>
               <footer className="about-quote-footer">
                 <cite>Krishan Christopher, CEO</cite>

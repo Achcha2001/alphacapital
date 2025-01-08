@@ -45,7 +45,7 @@ const LifeAtAlpha = () => {
       title: "New Year Celebration",
       description:
         "Ringing in the new year with joy, laughter, and togetherness! Our New Year celebrations are filled with excitement, festivities, and cherished moments.",
-      slides: ["newyear1", "newyear2", "newyear3"],
+      slides: ["newyear1", "newyear2", "newyear3", "newyear4", "newyear5", "newyear6", "newyear7", "newyear8", "newyear9", "newyear10", "newyear11", "newyear12", "newyear13", "newyear14", "newyear15"], // Added 5 more slides
       align: "right",
       background: "bg-new-year", // Unique background class
     },
@@ -69,11 +69,12 @@ const LifeAtAlpha = () => {
       title: "Sports Day",
       description:
         "Our Sports Day is an event filled with energy and enthusiasm. Team spirit, healthy competition, and unforgettable memories make it an eagerly anticipated occasion.",
-      slides: ["sports1", "sports2", "sports3"],
+      slides: ["sports1", "sports2", "sports3", "sports4", "sports5", "sports6"], // Added 3 more slides
       align: "left",
       background: "bg-sports-day", // Unique background class
     },
   ];
+  
 
   return (
     <section className="life-at-alpha-container">

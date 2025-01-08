@@ -69,9 +69,10 @@ const OurServices = () => {
             <div className="service-icon">
               <i className="fas fa-chart-line"></i>
             </div>
-            <h3 className="service-title1">Market Research and Surveys</h3>
+            <h3 className="service-title1">Effective Lead Generation for Growth
+            </h3>
             <p className="service-description">
-              Gain actionable insights into your market and customers with our tailored research and survey services. We help you make data-driven decisions to enhance strategy and drive growth.
+            Lead generation is vital for sales success. Our services help businesses identify high-quality prospects, engage them, and build a targeted customer database. We connect you with genuinely interested individuals, saving time and resources. By handling outreach, research, and qualification, we allow your sales team to focus on converting leads into loyal customers, driving sustainable growth.
             </p>
           </div>
 
@@ -80,9 +81,9 @@ const OurServices = () => {
             <div className="service-icon">
               <i className="fas fa-lightbulb"></i>
             </div>
-            <h3 className="service-title1">Business Consulting</h3>
+            <h3 className="service-title1">Sales Strategy Development/Sales Team Training</h3>
             <p className="service-description1">
-              Leverage our expertise in business process outsourcing to design and implement strategies that improve efficiency, reduce costs, and accelerate growth.
+            Alpha Capitals (Pvt) Ltd specialises in empowering businesses to unlock their full sales potential through tailored sales strategy development and team training. Our team of experienced professionals provides innovative solutions designed to equip your sales team with practical skills and cutting-edge techniques to close more deals and exceed targets. By aligning our strategies with your unique goals and challenges, we deliver the tools, insights, and expertise needed to help your business thrive in today’s competitive market.
             </p>
           </div>
         </div>

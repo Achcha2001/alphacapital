@@ -133,11 +133,47 @@
 }
 
 .alpha-swiper-slide.newyear2 {
-    background-image: url("../Assets/nye4.jpg");
+    background-image: url("../Assets/nyenew13.jpg");
+}
+.alpha-swiper-slide.newyear3 {
+    background-image: url("../Assets/nyenew1.jpg");
+}
+.alpha-swiper-slide.newyear4 {
+    background-image: url("../Assets/nyenew2.jpg");
+}
+.alpha-swiper-slide.newyear5 {
+    background-image: url("../Assets/nyenew3.jpg");
+}
+.alpha-swiper-slide.newyear6 {
+    background-image: url("../Assets/nyenew4.jpg");
+}
+.alpha-swiper-slide.newyear7 {
+    background-image: url("../Assets/nyenew5.jpg");
 }
 
-.alpha-swiper-slide.newyear3 {
+.alpha-swiper-slide.newyear8 {
     background-image: url("../Assets/nye3.jpg");
+}
+.alpha-swiper-slide.newyear9 {
+    background-image: url("../Assets/nyenew6.jpg");
+}
+.alpha-swiper-slide.newyear10 {
+    background-image: url("../Assets/nyenew7.jpg");
+}
+.alpha-swiper-slide.newyear11 {
+    background-image: url("../Assets/nyenew8.jpg");
+}
+.alpha-swiper-slide.newyear12 {
+    background-image: url("../Assets/nyenew9.jpg");
+}
+.alpha-swiper-slide.newyear13 {
+    background-image: url("../Assets/nyenew10.jpg");
+}
+.alpha-swiper-slide.newyear14 {
+    background-image: url("../Assets/nyenew11.jpg");
+}
+.alpha-swiper-slide.newyear15 {
+    background-image: url("../Assets/nyenew12.jpg");
 }
 
 .alpha-swiper-slide.christmas1 {
@@ -221,7 +257,7 @@
     border-radius: 10px;
 }
 .bg-sports-day {
-    background: linear-gradient(135deg, #3fa2f8 0%, #93feea 100%);
+    background: linear-gradient(135deg, #f3f4f5 0%, #e8f8fa 100%);
     padding: 20px;
    
     border-radius: 10px;
@@ -237,6 +273,15 @@
 
 .alpha-swiper-slide.sports3 {
     background-image: url('../Assets/sportsday3.jpg');
+}
+.alpha-swiper-slide.sports4 {
+    background-image: url('../Assets/sportsdaynew1.jpg');
+}
+.alpha-swiper-slide.sports5 {
+    background-image: url('../Assets/sportsdaynew2.jpg');
+}
+.alpha-swiper-slide.sports6 {
+    background-image: url('../Assets/sportsdaynew3.jpg');
 }
 /* Mobile Responsiveness for Screens Under 500px */
 

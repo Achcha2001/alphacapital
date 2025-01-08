@@ -175,7 +175,7 @@
   
   .about-us .image-container {
     flex: 1 1 50%; /* Image takes 50% of the width */
-    background: url('../Assets/about-us.jpg') no-repeat center center;
+    background: url('../Assets/aboutnew.jpg') no-repeat center center;
     background-size: cover;
     height: 100%; /* Ensures it matches the height of the text container */
     min-height: 400px; /* Set a minimum height for the image */
