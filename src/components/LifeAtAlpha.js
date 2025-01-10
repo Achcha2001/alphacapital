@@ -45,7 +45,7 @@ const LifeAtAlpha = () => {
       title: "New Year Celebration",
       description:
         "Ringing in the new year with joy, laughter, and togetherness! Our New Year celebrations are filled with excitement, festivities, and cherished moments.",
-      slides: ["newyear1", "newyear2", "newyear3", "newyear4", "newyear5", "newyear6", "newyear7", "newyear8", "newyear9", "newyear10", "newyear11", "newyear12", "newyear13", "newyear14", "newyear15"], // Added 5 more slides
+      slides: ["newyear1", "newyear2", "newyear3", "newyear4", "newyear5", "newyear6", ], // Added 5 more slides
       align: "right",
       background: "bg-new-year", // Unique background class
     },

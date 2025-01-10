@@ -79,7 +79,7 @@ If you ever feel like you’re not capable or doubt your abilities, remember: tr
 We’d love for you to join our team, where we’ll show you how to elevate your life in ways you never thought possible."
               </p>
               <footer className="about-quote-footer">
-                <cite>Krishan Christopher, CEO</cite>
+                <cite>Krishan Chrishtopher, CEO</cite>
               </footer>
             </blockquote>
           </div>
