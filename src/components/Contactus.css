@@ -6,19 +6,20 @@
     height: 100vh;
     background: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.3)
+        rgba(255, 255, 255, 0.231), /* Light color on the left */
+        rgba(0, 0, 0, 0.676) /* Darker color on the right */
       ),
-      url("../Assets/test.jpg") no-repeat center center/cover;
+      url("../Assets/con-save.webp") no-repeat center center/cover;
     background-position: center 55%; /* Adjust the vertical alignment */
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
+  
   .overlay1 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.584);
+    background-color: rgba(0, 0, 0, 0.737);
     border-radius: 10px;
     text-align: center;
     padding: 20px;
