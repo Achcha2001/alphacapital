@@ -3,16 +3,20 @@ import "./Services.css";
 import { Card, Container, Row, Col, Button } from "react-bootstrap"; // Added Button
 import { Link } from "react-router-dom"; // Import Link from React Router
 
-import { FaHeadset, FaBullhorn } from "react-icons/fa"; // Removed FaEnvelope
+import { FaClipboard, FaBullhorn } from "react-icons/fa"; // Removed FaEnvelope
 
 const servicesData = [
   {
     id: 1,
-    title: "Inbound Customer Support",
-    description:
-      "Provide timely and effective resolution to customer inquiries, complaints, and issues with our inbound call center services. Our trained agents deliver personalized assistance across multiple channels, including phone, email, chat, and social media, enhancing customer satisfaction and loyalty.",
-    icon: <FaHeadset className="service-icon" />,
+    title: "Back Office Support",
+    description: (
+      <>
+        At Alpha Capitals, we pride ourselves on delivering top-tier backend support services tailored to your business needs. Our expertise spans <span className="bold">HR outsourcing, quality assurance, compliance, IT support, and social media management</span>, ensuring seamless operations and strategic growth for your company. Partner with us to experience professional excellence and unmatched reliability.
+      </>
+    ),
+    icon: <FaClipboard className="service-icon" />,
   },
+  
   {
     id: 2,
     title: "Outbound Sales and Telemarketing",

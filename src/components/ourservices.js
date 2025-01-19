@@ -23,11 +23,13 @@ const OurServices = () => {
           {/* Service 1 */}
           <div className="service-card1">
             <div className="service-icon">
-              <i className="fas fa-headset"></i>
+            <i className="fas fa-user-shield"></i>
             </div>
-            <h3 className="service-title1">Inbound Customer Support</h3>
+            <h3 className="service-title1">Back Office Support</h3>
             <p className="service-description1">
-              Provide timely and effective resolution to customer inquiries, complaints, and issues with our inbound call center services. Our trained agents deliver personalized assistance across multiple channels, including phone, email, chat, and social media, enhancing customer satisfaction and loyalty.
+            <>
+        At Alpha Capitals, we pride ourselves on delivering top-tier backend support services tailored to your business needs. Our expertise spans <span className="bold">HR outsourcing, quality assurance, compliance, IT support, and social media management</span>, ensuring seamless operations and strategic growth for your company. Partner with us to experience professional excellence and unmatched reliability.
+      </>
             </p>
           </div>
 
