@@ -20,18 +20,7 @@ const OurServices = () => {
       <div className="services-container1 mt-5">
         <h2 className="services-heading1 text-center mb-5">What We Offer</h2>
         <div className="services-grid1">
-          {/* Service 1 */}
-          <div className="service-card1">
-            <div className="service-icon">
-            <i className="fas fa-user-shield"></i>
-            </div>
-            <h3 className="service-title1">Back Office Support</h3>
-            <p className="service-description1">
-            <>
-        At Alpha Capitals, we pride ourselves on delivering top-tier backend support services tailored to your business needs. Our expertise spans <span className="bold">HR outsourcing, quality assurance, compliance, IT support, and social media management</span>, ensuring seamless operations and strategic growth for your company. Partner with us to experience professional excellence and unmatched reliability.
-      </>
-            </p>
-          </div>
+        
 
           {/* Service 2 */}
           <div className="service-card1">
@@ -86,6 +75,18 @@ const OurServices = () => {
             <h3 className="service-title1">Sales Strategy Development/Sales Team Training</h3>
             <p className="service-description1">
             Alpha Capitals (Pvt) Ltd specialises in empowering businesses to unlock their full sales potential through tailored sales strategy development and team training. Our team of experienced professionals provides innovative solutions designed to equip your sales team with practical skills and cutting-edge techniques to close more deals and exceed targets. By aligning our strategies with your unique goals and challenges, we deliver the tools, insights, and expertise needed to help your business thrive in today’s competitive market.
+            </p>
+          </div>
+            {/* Service 1 */}
+            <div className="service-card1">
+            <div className="service-icon">
+            <i className="fas fa-user-shield"></i>
+            </div>
+            <h3 className="service-title1">Back Office Support</h3>
+            <p className="service-description1">
+            <>
+        At Alpha Capitals, we pride ourselves on delivering top-tier backend support services tailored to your business needs. Our expertise spans <span className="bold">HR outsourcing, quality assurance, compliance, IT support, and social media management</span>, ensuring seamless operations and strategic growth for your company. Partner with us to experience professional excellence and unmatched reliability.
+      </>
             </p>
           </div>
         </div>
